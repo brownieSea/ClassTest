@@ -27,11 +27,15 @@ public class Calculator {
 		return first * second;
 	}
 
-	public int divid(int first, int second) { 
+	public double divid(double first, double second) { 
 		return first / second;
 	}
 
 	public int pow(int number) { 
+		return number*number;
+	}
+
+	public int pow(int number, int number2) {  // 매개변수를 달리해서 같은 이름의 클래스를 사용할 수 있다. 메소드 오버로딩 
 		return number*number;
 	}
 
